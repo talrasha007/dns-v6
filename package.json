@@ -1,0 +1,23 @@
+{
+  "name": "dns-v6",
+  "version": "0.0.1",
+  "description": "A dns proxy that return AAAA records only if answer contains AAAA records.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talrasha007/dns-v6.git"
+  },
+  "keywords": [
+    "dns",
+    "ipv6"
+  ],
+  "author": "talrasha007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talrasha007/dns-v6/issues"
+  },
+  "homepage": "https://github.com/talrasha007/dns-v6#readme",
+  "dependencies": {
+    "native-dns-packet": "^0.1.1"
+  }
+}
